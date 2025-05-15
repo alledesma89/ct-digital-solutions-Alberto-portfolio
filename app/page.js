@@ -1,7 +1,7 @@
 
 import Head from 'next/head';
-import Navbar from '../components/Navbar.js'; 
-import Hero from '../components/Hero.js';
+import Navbar from '../components/navbar'; 
+import Hero from '../components/hero.js';
 import SobreMi from '../components/sobremi.js';
 import ContactForm from '../components/ContactForm.js';
 
