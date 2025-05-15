@@ -1,9 +1,9 @@
 
 import Head from 'next/head';
-import Navbar from '/components/Navbar'; 
-import Hero from '/components/Hero';
-import SobreMi from '/components/SobreMi';
-import ContactForm from '/components/ContactForm';
+import Navbar from 'Navbar'; 
+import Hero from 'Hero';
+import SobreMi from 'SobreMi';
+import ContactForm from 'ContactForm';
 
 export default function Home() {
   return (
