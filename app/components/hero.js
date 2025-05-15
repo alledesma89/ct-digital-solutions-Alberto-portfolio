@@ -444,11 +444,11 @@ const Hero = () => {
       <h2 className="text-2xl font-bold mb-4 text-center">Front-End</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center items-center">
         <div className="flex flex-col items-center">
-          <img src="/media/html5.svg" alt="HTML5" className="w-12 h-12 mb-2" />
+          <img src="/media/HTML5.svg" alt="HTML5" className="w-12 h-12 mb-2" />
           <span className="text-sm">HTML5</span>
         </div>
         <div className="flex flex-col items-center">
-          <img src="/media/css3.svg" alt="CSS3" className="w-12 h-12 mb-2" />
+          <img src="/media/CSS3.svg" alt="CSS3" className="w-12 h-12 mb-2" />
           <span className="text-sm">CSS3</span>
         </div>
         <div className="flex flex-col items-center">
@@ -468,7 +468,7 @@ const Hero = () => {
           <span className="text-sm">Bootstrap</span>
         </div>
         <div className="flex flex-col items-center">
-          <img src="/media/vue.svg" alt="Vue.js" className="w-12 h-12 mb-2" />
+          <img src="/media/Vue.svg" alt="Vue.js" className="w-12 h-12 mb-2" />
           <span className="text-sm">Vue.js</span>
         </div>
       </div>
