@@ -1,6 +1,8 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -22,6 +24,20 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    text-wrap: balance; /* Esta propiedad no tiene soporte generalizado, puedes eliminarla si prefieres */
   }
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.5s ease-out forwards;
 }
