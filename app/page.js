@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Navbar from '../components/navbar'; 
 import Hero from '../components/hero';
-import SobreMi from '../components/sobreMi';
+import SobreMi from '../components/sobremi';
 import ContactForm from '../components/ContactForm';
 
 export default function Home() {
