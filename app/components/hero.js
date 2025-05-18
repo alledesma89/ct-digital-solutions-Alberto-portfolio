@@ -503,6 +503,48 @@ const Hero = () => {
   modules={[Pagination]}
   className="rounded-lg overflow-hidden"
 >
+ {/* ANGULAR */}
+ <SwiperSlide>
+  <div className="flex flex-col md:flex-row gap-6 items-center bg-white text-black p-6 rounded-lg">
+    <div className="w-full md:w-1/2 grid grid-cols-2 gap-2">
+      <img src="/media/upfield1.jpg" alt="Upfield Angular App 1" className="h-48 w-full object-contain rounded-lg bg-gray-100 p-2" />
+      <img src="/media/upfield2.jpg" alt="Upfield Angular App 2" className="h-48 w-full object-contain rounded-lg bg-gray-100 p-2" />
+    </div>
+    <div className="md:w-1/2">
+      <h3 className="text-2xl font-bold mb-3">App Corporativa Angular – Grupo Upfield</h3>
+      <p className="text-sm mb-3">
+        Participación en tareas de mantenimiento y mejora continua de una aplicación desarrollada en Angular, usada internamente por los equipos de operaciones de Grupo Upfield.
+      </p>
+      <ul className="text-sm list-disc pl-5">
+        <li>Actualización de módulos y refactorización de componentes Angular</li>
+        <li>Solución de bugs y problemas de integración</li>
+        <li>Soporte en despliegues periódicos y QA técnico</li>
+        <li>Colaboración con equipo internacional en metodología Scrum</li>
+      </ul>
+    </div>
+  </div>
+</SwiperSlide>
+
+<SwiperSlide>
+  <div className="flex flex-col md:flex-row gap-6 items-center bg-white text-black p-6 rounded-lg">
+    <div className="w-full md:w-1/2 grid grid-cols-2 gap-2">
+      <img src="/media/upfield3.jpg" alt="Upfield Angular App 3" className="h-48 w-full object-contain rounded-lg bg-gray-100 p-2" />
+      <img src="/media/upfield4.jpg" alt="Upfield Angular App 4" className="h-48 w-full object-contain rounded-lg bg-gray-100 p-2" />
+    </div>
+    <div className="md:w-1/2">
+      <h3 className="text-2xl font-bold mb-3">Optimización Frontend Angular</h3>
+      <p className="text-sm mb-3">
+        Mejoras en la estructura del frontend para garantizar mayor rendimiento, estabilidad y claridad en la experiencia de usuario dentro de la app Angular corporativa de Upfield.
+      </p>
+      <ul className="text-sm list-disc pl-5">
+        <li>Lazy loading de módulos y mejora de tiempos de carga</li>
+        <li>Auditorías internas para asegurar cumplimiento de estándares</li>
+        <li>Revisión de consumo de APIs y gestión de estado</li>
+        <li>Aplicación de buenas prácticas de Angular Style Guide</li>
+      </ul>
+    </div>
+  </div>
+</SwiperSlide>
   {/* FRONT-END */}
   <SwiperSlide>
     <div className="bg-white text-black p-6 rounded-lg shadow-md">
